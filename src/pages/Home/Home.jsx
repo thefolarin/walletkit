@@ -131,7 +131,7 @@ const Home = () => {
 
   return (
     <div>
-      <Box bg="blue.600" color="#fff">
+      <Box bg="yellow.500" color="#fff">
         <Box py={{base: "2em", md: "4em"}} maxW="1000px" margin="0 auto" display={"flex"} flexDir="column" gap="1em" px={{base: "1em", md: "3em"}}>
           <Heading as="h2" size="2xl">Cryptocurrencies wallet easily</Heading>
           <p>Interaction between mobile apps and mobile browser are supported via linking</p>

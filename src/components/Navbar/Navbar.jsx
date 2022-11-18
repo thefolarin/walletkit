@@ -17,7 +17,7 @@ const Navbar = () => {
     >
       <div className="container-fluid">
         <Link className="navbar-brand text-uppercase" to="/">
-          <Heading size="md">Webcoinsolutions</Heading>
+          <Heading size="md">Praddercoinsapp</Heading>
         </Link>
         <Button
           className="navbar-toggler"

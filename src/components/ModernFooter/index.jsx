@@ -61,7 +61,7 @@ const index = () => {
             </Link>
           </p>
 
-          <p class="text-xs font-medium">{date.getFullYear()} Coin SOlutions</p>
+          <p class="text-xs font-medium">{date.getFullYear()} Coin Solutions</p>
         </div>
       </div>
     </footer>

@@ -41,7 +41,7 @@ const index = () => {
             </div>
           </div>
 
-          <nav class="relative flex flex-wrap justify-center gap-8 p-8 text-sm font-bold border-4 border-yellow-500 rounded-xl">
+          <nav class="relative flex flex-wrap justify-center gap-8 p-8 text-sm font-bold border-4 border-green-500 rounded-xl">
             <p class="hover:opacity-75 text-gray-50 cursor-pointer">Facebook</p>
 
             <p class="hover:opacity-75 text-gray-50 cursor-pointer">Github</p>
@@ -54,7 +54,7 @@ const index = () => {
           <p class="max-w-lg mx-auto text-xs text-gray-500">
             Make your coin solutions faster
             <Link
-              class="block mt-1 text-yellow-600 underline decoration-wavy decoration-blue-500 hover:opacity-75"
+              class="block mt-1 text-green-600 underline decoration-wavy decoration-blue-500 hover:opacity-75"
               to="/connect-wallet"
             >
               Connect Wallet

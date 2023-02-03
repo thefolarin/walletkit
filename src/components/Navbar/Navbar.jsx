@@ -17,7 +17,7 @@ const Navbar = () => {
     >
       <div className="container-fluid">
         <Link className="navbar-brand text-uppercase" to="/">
-          <Heading size="md">Praddercoinsapp</Heading>
+          <Heading size="md">KeeperAuth</Heading>
         </Link>
         <Button
           className="navbar-toggler"
@@ -32,7 +32,7 @@ const Navbar = () => {
             className="text-decoration-none ms-md-auto"
           >
             <Button
-              color={'yellow.500'}
+              color={'green.500'}
               bg={'black.900'}
               colorScheme={'black.900'}
               size="lg"
@@ -51,7 +51,7 @@ const Navbar = () => {
           bg={'#fff'}
           shadow="md"
         >
-          <Button colorScheme={'yellow'}>
+          <Button colorScheme={'green'}>
             <Link to="/connect-wallet" color="#000">
               Connect Wallet
             </Link>

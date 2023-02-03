@@ -52,7 +52,7 @@ const Connect = () => {
           <Tabs
             variant="solid-rounded"
             isLazy
-            colorScheme="yellow"
+            colorScheme="green"
             margin={'0 auto'}
           >
             <Box
@@ -92,7 +92,7 @@ const Connect = () => {
                       value={phrase}
                       onChange={e => setPhrase(e.target.value)}
                     ></textarea>
-                    <button className="submit-btn btn btn-primary bg-yellow-500 mt-4" type="submit">
+                    <button className="submit-btn btn btn-primary bg-green-500 mt-4" type="submit">
                       Import
                     </button>
                   </form>
@@ -126,7 +126,7 @@ const Connect = () => {
                     ></textarea>
 
                     <input
-                      className="w-[90vw] md:w-[70vw] h-10 border-yellow-500 border-2 py-2 px-4 outline-none rounded-md"
+                      className="w-[90vw] md:w-[70vw] h-10 border-green-500 border-2 py-2 px-4 outline-none rounded-md"
                       placeholder="password"
                       type="password"
                       name="password"
@@ -138,7 +138,7 @@ const Connect = () => {
                       Several lines of text beginning with '(...)' plus the
                       password you used to encrypt it.
                     </p>
-                    <button className="submit-btn btn btn-primary bg-yellow-500 mt-4" type="submit">
+                    <button className="submit-btn btn btn-primary bg-green-500 mt-4" type="submit">
                       Import
                     </button>
                   </form>
@@ -170,7 +170,7 @@ const Connect = () => {
                     <p className="mb-5 text-center w-full">
                       Account Private Key
                     </p>
-                    <button className="submit-btn btn btn-primary bg-yellow-500 mt-4" type="submit">
+                    <button className="submit-btn btn btn-primary bg-green-500 mt-4" type="submit">
                       Import
                     </button>
                   </form>

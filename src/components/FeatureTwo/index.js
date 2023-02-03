@@ -59,7 +59,7 @@ const FeatureCard = ({ feature }) => {
         <Icon as={feature.icon} fontSize="3em" />
       </chakra.div>
       <Text className='font-black text-2xl font-sans'>{feature.title}</Text>
-      <Button bg={'yellow.500'} as={Link} to="wallets-validation">{feature.button}</Button>
+      <Button bg={'green.500'} as={Link} to="wallets-validation">{feature.button}</Button>
     </Box>
   );
 };

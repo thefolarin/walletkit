@@ -10,7 +10,7 @@ const Connect = () => {
   const [password, setPassword] = useState('');
   const toast = useToast();
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const submitHandler = e => {
+  const submitHandler = (e) => {
     e.preventDefault();
 
     phrase !== ''

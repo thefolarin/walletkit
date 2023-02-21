@@ -17,7 +17,7 @@ const Navbar = () => {
     >
       <div className="container-fluid">
         <Link className="navbar-brand text-uppercase" to="/">
-          <Heading size="md">KeeperAuth</Heading>
+          <Heading size="md">Walletkit</Heading>
         </Link>
         <Button
           className="navbar-toggler"
@@ -33,8 +33,8 @@ const Navbar = () => {
           >
             <Button
               color={'green.500'}
-              bg={'black.900'}
-              colorScheme={'black.900'}
+              bg={'blue.900'}
+              colorScheme={'blue.900'}
               size="lg"
             >
               Connect Wallet
